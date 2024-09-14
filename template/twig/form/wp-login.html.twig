@@ -1,0 +1,9 @@
+<div class="pr-tpa-login hidden">
+    {% for name, item in items %}
+        <a class="pr-tpa-button" href="{{ item.url|raw }}">
+            <span class="pr-tpa-text">{{ item.text|raw }}</span>
+            {{ wp_get_attachment_image(item.icon, [25, 25], {class: 'pr-tpa-image'})|raw }}
+        </a>
+    {% endfor %}
+    {{ nonce|raw }}
+</div>
