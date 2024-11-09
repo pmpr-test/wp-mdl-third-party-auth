@@ -1,2 +1,2 @@
-/*! For license information please see login.YO8zgXFSd.js.LICENSE.txt */
+/*! For license information please see login.Rgy1uSiMW.js.LICENSE.txt */
 (()=>{var e={970:(e,t,o)=>{"use strict";o.r(t)}},t={};function o(r){var n=t[r];if(void 0!==n)return n.exports;var l=t[r]={exports:{}};return e[r](l,l.exports,o),l.exports}o.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},o(970),function(){const e=PRHelper.getHTML();PRHelper.getHook().on("DOMContentLoaded",(function(){let t=e.getElement(".pr-tpa-login");if(t&&e.hasClass(t,"hidden")){let o=t.closest("form");e.append(t,o)}}))}()})();
