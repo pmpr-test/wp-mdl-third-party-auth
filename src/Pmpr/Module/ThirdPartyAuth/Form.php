@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6800fbef8506e             |
+    |             680106653a29e             |
     |_______________________________________|
 */
  namespace Pmpr\Module\ThirdPartyAuth; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Module\ThirdPartyAuth\Provider\Provider; class Form extends Container { public function wigskegsqequoeks() { $this->qcsmikeggeemccuu('login_form', [$this, 'ciuaeosmuwakscyy']); } public function ciuaeosmuwakscyy() { $oammesyieqmwuwyi = []; $ukiskwsmqscwauuu = $this->uaoeyuweaaggiosw(); foreach ($ukiskwsmqscwauuu as $iwigiqwyskocowwo) { $ymqmyyeuycgmigyo = $iwigiqwyskocowwo->aakmagwggmkoiiyu(); $oammesyieqmwuwyi[$ymqmyyeuycgmigyo] = [Constants::auqoykcmsiauccao => $iwigiqwyskocowwo->gesoiqwieuaqaaqw(), Constants::qgqyauaqwqmqseim => $this->weysguygiseoukqw($ymqmyyeuycgmigyo . Constants::qgqyauaqwqmqseim), Constants::TEXT => $this->weysguygiseoukqw($ymqmyyeuycgmigyo . Constants::kcyioiskeyiemoga)]; } if ($oammesyieqmwuwyi) { $qqscaoyqikuyeoaw = $this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->wweuwcaqkkowawsy() ? 'wp-login' : 'frontend'; $this->iuygowkemiiwqmiw($qqscaoyqikuyeoaw, [Constants::qwumqqyuasyskkkc => $oammesyieqmwuwyi, Constants::oomaageiyqkaiekk => $this->uwkmaywceaaaigwo()->ogciwyoqgciosgcw()->ewgquygaowykwacc(Provider::wqcswcwygsiiauqw, Provider::gcouqeuuoimiuqoc, false, false)], [Constants::qaacaqioeyiuakeu => true]); } } }

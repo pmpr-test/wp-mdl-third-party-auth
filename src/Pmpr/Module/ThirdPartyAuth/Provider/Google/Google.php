@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6800fbef8506e             |
+    |             680106653a29e             |
     |_______________________________________|
 */
  namespace Pmpr\Module\ThirdPartyAuth\Provider\Google; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Module\ThirdPartyAuth\Provider\Common; class Google extends Common { public function __construct() { $this->name = Constants::umookyimwkqqkieq; $this->api = API::symcgieuakksimmu($this->aakmagwggmkoiiyu()); parent::__construct(); } }
