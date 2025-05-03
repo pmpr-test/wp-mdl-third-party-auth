@@ -4,4 +4,4 @@
     |             68169d8d877d3             |
     |_______________________________________|
 */
- use Pmpr\Module\ThirdPartyAuth\ThirdPartyAuth; ThirdPartyAuth::symcgieuakksimmu();
+ namespace Pmpr\Module\ThirdPartyAuth\Panel; use Pmpr\Module\Panel\AbstractPanel; class Panel extends AbstractPanel { public function gigwcakmiyayoigw() { } }
