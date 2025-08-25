@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Pmpr Third Party Authentication\n"
-"POT-Creation-Date: 2024-11-05 17:28+0330\n"
-"PO-Revision-Date: 2024-11-05 17:29+0330\n"
+"POT-Creation-Date: 2025-08-24 16:28+0330\n"
+"PO-Revision-Date: 2025-08-24 16:29+0330\n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: \n"
 "Language: fa_IR\n"
@@ -10,14 +10,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: index.php\n"
 "X-Source-Language: en\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
-"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: lib\n"
 "X-Poedit-SearchPathExcluded-1: *.js\n"
@@ -31,12 +30,12 @@ msgid "User Links"
 msgstr "لینک‌های کاربر"
 
 #: src/Pmpr/Module/ThirdPartyAuth/Model/UserLink.php:27
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:72
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:75
 msgid "Google"
 msgstr "گوگل"
 
 #: src/Pmpr/Module/ThirdPartyAuth/Model/UserLink.php:28
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:102
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:105
 msgid "Yahoo"
 msgstr "یاهو"
 
@@ -54,7 +53,7 @@ msgid "Identifier"
 msgstr "شناسه"
 
 #: src/Pmpr/Module/ThirdPartyAuth/Model/UserLink.php:48
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:56
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:59
 msgid "User"
 msgstr "کاربر"
 
@@ -62,11 +61,27 @@ msgstr "کاربر"
 msgid "Created At"
 msgstr "تاریخ ایجاد"
 
-#: src/Pmpr/Module/ThirdPartyAuth/Provider/Provider.php:260
+#: src/Pmpr/Module/ThirdPartyAuth/Provider/Provider.php:291
 msgid ""
 "No profile data is returned from application. Please contact your "
 "administrator."
 msgstr ""
+
+#: src/Pmpr/Module/ThirdPartyAuth/Provider/Provider.php:409
+msgid "Require data not passed to insert user link"
+msgstr ""
+
+#: src/Pmpr/Module/ThirdPartyAuth/Provider/Provider.php:442
+msgid "Please Go back and Refresh the page and try again!"
+msgstr "لطفا برگردید و صفحه را رفرش کنید و دوباره امتحان کنید!"
+
+#: src/Pmpr/Module/ThirdPartyAuth/Provider/Provider.php:444
+msgid "If you still face the same issue please contact your Administrator."
+msgstr "اگر همچنان با همین مشکل مواجه شدید، لطفا به مدیریت سایت اطلاع دهید."
+
+#: src/Pmpr/Module/ThirdPartyAuth/Provider/Provider.php:446
+msgid "Error on Login:"
+msgstr "خطا در ورود:"
 
 #: src/Pmpr/Module/ThirdPartyAuth/Setting.php:27
 msgid "Third Party Authentication"
@@ -76,40 +91,40 @@ msgstr "احراز هویت شخص ثالث"
 msgid "Third Party Authentication Setting"
 msgstr "تنظیمات احراز هویت شخص ثالث"
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:39
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:44
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:76
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:106
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:42
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:47
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:79
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:109
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:40
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:43
 msgid "General Configuration"
 msgstr "پیکربندی عمومی"
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:47
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:50
 msgid "Redirect to"
 msgstr "ریدایرکت به"
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:49
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:52
 msgid "Determine where to redirect user after login."
 msgstr "تعیین کنید که کاربر پس از ورود به کجا هدایت شود."
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:59
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:62
 msgid "Create New User"
 msgstr "ایجاد کاربر جدید"
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:60
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:63
 msgid ""
 "Check this option, if you want create a new wordpress user per provider "
 "authentication."
 msgstr ""
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:64
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:67
 msgid "Use Provider Avatar"
 msgstr ""
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:65
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:68
 #, fuzzy
 #| msgid ""
 #| "Check this option, if you want enable this provider as a login option."
@@ -118,62 +133,62 @@ msgstr ""
 "اگر می‌خواهید این ارائه دهنده را به عنوان یکی از گزینه‌های لاگین فعال کنید، "
 "این گزینه را علامت بزنید."
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:73
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:76
 msgid "Google Configuration"
 msgstr "پیکربندی گوگل"
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:81
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:84
 msgid "Enable One Tap Login"
-msgstr ""
-
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:86
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:112
-msgid "Credentials"
 msgstr ""
 
 #: src/Pmpr/Module/ThirdPartyAuth/Setting.php:89
 #: src/Pmpr/Module/ThirdPartyAuth/Setting.php:115
+msgid "Credentials"
+msgstr ""
+
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:92
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:118
 #, php-format
 msgid "Create oAuth App ID and App Secret at %s."
 msgstr ""
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:93
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:119
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:96
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:122
 #, php-format
 msgid "Use %s as redirect uri."
 msgstr "از %s به عنوان redirect uri استفاده کنید."
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:103
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:106
 msgid "Yahoo Configuration"
 msgstr "پیکربندی یاهو"
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:138
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:143
 msgid "Enable"
 msgstr "فعال"
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:139
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:144
 msgid "Check this option, if you want enable this provider as a login option."
 msgstr ""
 "اگر می‌خواهید این ارائه دهنده را به عنوان یکی از گزینه‌های لاگین فعال کنید، "
 "این گزینه را علامت بزنید."
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:142
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:147
 msgid "Button Text"
 msgstr "متن دکمه"
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:145
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:150
 msgid "Button Icon"
 msgstr "آیکون دکمه"
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:158
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:165
 msgid "App ID"
 msgstr "شناسه برنامه"
 
-#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:162
+#: src/Pmpr/Module/ThirdPartyAuth/Setting.php:169
 msgid "App Secret"
 msgstr "کلید خصوصی برنامه"
 
-#: src/Pmpr/Module/ThirdPartyAuth/ThirdPartyAuth.php:22
+#: src/Pmpr/Module/ThirdPartyAuth/ThirdPartyAuth.php:21
 msgid "Third Party Auth"
 msgstr "احراز هویت شخص ثالث"
 
